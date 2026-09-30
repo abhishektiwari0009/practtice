@@ -1,0 +1,32 @@
+[
+  { "id": 1,
+    "name": "Abhishek",
+    "age": 21,
+    "email": "abhishek@example.com",
+    "city": "Jaipur"
+  },
+  { "id": 2,
+    "name": "Aakanksha",
+    "age": 24,
+    "email": "aakanksha@example.com",
+    "city": "Delhi"
+  },
+  { "id": 3,
+    "name": "Rahul",
+    "age": 27,
+    "email": "rahul@example.com",
+    "city": "Mumbai"
+  },
+  { "id": 4,
+    "name": "Sneha",
+    "age": 22,
+    "email": "sneha@example.com",
+    "city": "Pune"
+  },
+  { "id": 5, "name": "Aman", "age": 25, "email": "aman@example.com", "city": "Lucknow" },
+  { "id": 6, "name": "Neha", "age": 23, "email": "neha@example.com", "city": "Bhopal" },
+  { "id": 7, "name": "Rohan", "age": 29, "email": "rohan@example.com", "city": "Chandigarh" },
+  { "id": 8, "name": "Anjali", "age": 26, "email": "anjali@example.com", "city": "Kolkata" },
+  { "id": 9, "name": "Vikram", "age": 30, "email": "vikram@example.com", "city": "Ahmedabad" },
+  { "id": 10, "name": "Kavya", "age": 20, "email": "kavya@example.com", "city": "Hyderabad" }
+]
