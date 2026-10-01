@@ -7,11 +7,14 @@
 // import Json from "./components/Json.jsx";
 // import Object from "./components/Object.jsx";
 
-import Arrobj from "./components/Arrobj.jsx";
+// import Arrobj from "./components/Arrobj.jsx";
+import Form from "./components/Form.jsx";
+
 let App = ()=>{
   return(
     <>
-        <Arrobj></Arrobj>
+        <Form></Form>
+        {/*<Arrobj></Arrobj>*/}
         {/*<Object></Object>*/}
         {/*<Json></Json>*/}
         {/*<Data></Data>*/}
