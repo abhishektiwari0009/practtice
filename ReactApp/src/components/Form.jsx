@@ -3,7 +3,7 @@ import React from 'react'
 const Form = () => {
     return (
         <>
-            <form className={"border-2 rounded-2xl bg-pink-300 w-100 p-10 m-auto mt-20 "}>
+            <form className={"border-2 rounded-2xl bg-pink-300 w-100 p-10 m-auto mt-20  "}>
                 <p className={"font-bold text text-2xl "}>User Detail</p>
                 <p>
                 <label for = "username">Name: </label>
