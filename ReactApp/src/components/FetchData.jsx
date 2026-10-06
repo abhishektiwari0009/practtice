@@ -4,7 +4,7 @@ const FetchData = () => {
     let[content,setContent] = useState([])
     let getData = async() =>{
         let response = await fetch('https://jsonplaceholder.typicode.com/comments')
-        let data = await responseq.json()
+        let data = await response.json()
         console.log(data);
         setContent(data)
         
