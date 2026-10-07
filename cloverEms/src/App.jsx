@@ -14,8 +14,8 @@ let App = () => {
             <BrowserRouter>
                 <Nav></Nav>
                 <Routes>
-                    <Route path={'/Home'} element={<Home></Home>}></Route>
-                    <Route path={'/Home'} element={<Home></Home>}></Route>
+                    <Route path={'/'} element={<Home></Home>}></Route>
+                    <Route path={'/'} element={<Home></Home>}></Route>
                     <Route path={'/About'} element={<About></About>}></Route>
                     <Route path={'/Create User'} element={<Createuser></Createuser>}></Route>
                     <Route path={'/All user'} element={<Alluser></Alluser>}></Route>

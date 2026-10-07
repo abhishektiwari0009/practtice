@@ -4,24 +4,24 @@ import logo from '../Asset/logo.png'
 const Nav = () => {
     return (
         <>
-    <nav className={'flex'}>
+    <nav className={'flex justify-between items-center h-16 bg-[#be123c]'}>
       <div>
-        <ul className={'flex w-full justify-around'}>
-            <li className={'w-50 h-'}><Link to={'/Home'}><img src={logo}/></Link></li>
+        <ul className={'flex items-center'}>
+            <li><Link to={'/'}><img src={logo} alt={'logo'} className={'h-12 w-auto object-contain'}/></Link></li>
         </ul>
       </div>
       <div>
-          <ul className={'flex justify-around'}>
-            <li><Link to={'/Home'}>Home</Link></li>
-            <li><Link to={'/About'}>About</Link></li>
-            <li><Link to={'/Create user'}>Create user</Link></li>
-            <li><Link to={'/All user'}> All user</Link></li>
+          <ul className={'flex m-10 pr-40 pl-40 text-lg text-white '}>
+            <li className={'pr-10 hover:text-[#172554]'}><Link to={'/'}>Home</Link></li>
+            <li className={'pr-10 hover:text-[#172554]'}><Link to={'/About'}>About</Link></li>
+            <li className={'pr-10 hover:text-[#172554]'}><Link to={'/Create user'}>Create user</Link></li>
+            <li className={'pr-10 hover:text-[#172554]'}><Link to={'/All user'}> All user</Link></li>
           </ul>
       </div>
       <div>
-      <ul className={'flex justify-around'}>
-          <li><Link to={'/Login'}>Login</Link></li>
-          <li><Link to={'/Sign up'}>Sign Up</Link></li>
+      <ul className={'flex text-lg text-white'}>
+          <li className={'pr-5 hover:text-[#172554]'}><Link to={'/Login'}>Login</Link></li>
+          <li className={'pr-3 hover:text-[#172554]'}><Link to={'/Sign up'}>Sign Up</Link></li>
       </ul>
       </div>
     </nav>
