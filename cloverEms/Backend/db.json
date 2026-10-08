@@ -1,0 +1,13 @@
+{
+  "students": [
+    {
+      "name": "admin",
+      "email": "gmail@gmail.com",
+      "contact": "7891660776",
+      "password": "Abhishek123",
+      "age": "25",
+      "id": "RwtGVSeRxkA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
