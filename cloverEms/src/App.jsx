@@ -7,7 +7,7 @@ import Createuser from "./Components/Createuser.jsx";
 import Alluser from "./Components/Alluser.jsx";
 import Login from "./Components/Login.jsx";
 import Signup from "./Components/Signup.jsx";
-
+import Edit from "./Components/Edit.jsx";
 let App = () => {
     return (
         <>
@@ -21,6 +21,7 @@ let App = () => {
                     <Route path={'/All user'} element={<Alluser></Alluser>}></Route>
                     <Route path={'/Login'} element={<Login></Login>}></Route>
                     <Route path={'/Sign Up'} element={<Signup></Signup>}></Route>
+                    <Route path={'/Edit/:id'} element={<Edit></Edit>}></Route>
                 </Routes>
             </BrowserRouter>
         </>

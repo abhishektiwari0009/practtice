@@ -4,7 +4,7 @@ import logo from '../Asset/logo.png'
 const Nav = () => {
     return (
         <>
-    <nav className={'flex justify-between items-center h-16 bg-[#be123c]'}>
+    <nav className={'flex justify-between items-center h-16 bg-[#00A651]'}>
       <div>
         <ul className={'flex items-center'}>
             <li><Link to={'/'}><img src={logo} alt={'logo'} className={'h-12 w-auto object-contain'}/></Link></li>

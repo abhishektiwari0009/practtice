@@ -71,7 +71,7 @@ const Createuser = () => {
                     <input id={'password'} type={'password'} required placeholder={'Create your password'} className={'border-2 rounded-lg pl-3'} value={password} onChange={passwordHandler}/>
                 </p>
                 <p className={'px-38 py-3 '}>
-                    <button className={'border-2 rounded-lg px-5 bg-red-700 font-bold'} value={btn} onClick={btnHandler} type={'submit'}>Save</button>
+                    <button className={'border-2 rounded-lg px-5 bg-[#00A651] font-bold'} value={btn} onClick={btnHandler} type={'submit'}>Save</button>
                 </p>
             </form>
         </div>
