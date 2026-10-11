@@ -40,7 +40,7 @@ const Alluser = () => {
                             <th className="px-6 py-3 font-semibold">Contact</th>
                             <th className="px-6 py-3 font-semibold">Age</th>
                             <th className="px-6 py-3 font-semibold">Password</th>
-                            <th className="px-6 py-3 font-semibold text-center">Action</th>
+                            <th className="`px-6 py-3 font-semibold text-center">Action</th>
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
