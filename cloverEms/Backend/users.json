@@ -5,6 +5,12 @@
       "email": "gmail@gmail.com",
       "password": "123456789",
       "id": "1TEr9JjSxCs"
+    },
+    {
+      "name": "admin",
+      "email": "ab@gmail.com",
+      "password": "1234",
+      "id": "gk1B_Aney9o"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
