@@ -1,0 +1,11 @@
+//express middleware = (req,res,,next)
+//routimg refers to determimng how an application responds to clirnt request to a particular endpiont
+//app.MeTHOD(PATH,HANDLER)
+//app is an instance
+
+
+
+///middleware functions can perform
+//malke changes ti the request  and the response obj.
+//end the request -response cycle
+//call the next middleware in the stack
